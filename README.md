@@ -1,7 +1,7 @@
 Необходимо написать очень простой поисковик по текстам документов. Данные хранятся в БД по желанию, поисковый индекс в эластике.
 
 Как запустить
-1.Скопировать все на локалку - git clone https://github.com/demka-test-tasks/notion_so
+1.Скопировать все на локалку - git clone https://github.com/afox72/searchtest
 2.Запустить сервис с помощью docker-compose up -d, подождать, пока postgres и elastic стартанут, fastapi даст ошибку, что нормально
 3.Синхронизировать хранилища с .csv с помощью python3 converter.py в utils
 4.Сделать рестарт решения с помощью docker-compose stop && docker-compose up -d
